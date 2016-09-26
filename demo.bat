@@ -26,3 +26,4 @@ adb pull /sdcard/screenshot.png
 adb shell rm /sdcard/screenshot.png
 echo.
 echo Done! Exiting demo mode
+adb shell am broadcast -a com.android.systemui.demo -e command exit
